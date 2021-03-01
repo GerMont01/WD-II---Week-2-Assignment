@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="colors">
+            <div class="color1"></div>
+            <div class="color2"></div>
+            <div class="color3"></div>
+        </div>
+        <div class="content">
+            <header>Input your message and see the outcome!</header>
+            <form autocomplete="off">
+                <label for="msg">Message</label>
+                <input type="text" id="msginput" onkeydown="writeMessage()" name="msg"><br><br>
+                <button type="button" id="btn">Submit</button>
+            </form>
+            <p id="message"></p>
+        </div>
+        <script src="script.js"></script> 
+    </body>
+</html>

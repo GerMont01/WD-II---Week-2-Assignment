@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.colors {
+    height: 100vh;
+    width: 100%;
+    filter: blur(150px);
+}
+.color1 {
+    position: absolute;
+    top: 5vh;
+    left: 2vh;
+    height: 40vh;
+    width: 25%;
+    background-color: blue;
+}
+.color2 {
+    position: absolute;
+    top: 1vh;
+    left: 40vh;
+    margin: auto;
+    padding: 10%;
+    height: 50vh;
+    width: 20%;
+    background-color: rgb(102, 255, 0);
+}
+.color3 {
+    position: absolute;
+    top: 25vh;
+    right: 2vh;
+    margin: auto;
+    padding: 10%;
+    height: 30vh;
+    width: 10%;
+    background-color: blue;
+}
+.content {
+    position: absolute;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    height: 35vh;
+    font-family: 'Lucida Sans';
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+header {
+    font-size: 26px;
+    padding: 4vh;
+}
+form {
+    margin: auto;
+    width: 80%;
+    padding: 2vw;
+}
+input {
+    background-color: rgb(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 1vh;
+    width: 65%;
+}
+button {
+    width: 20%;
+    border-radius: 20px;
+    padding: 1vh;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+label {
+    font-size: 15px;
+}
+p {
+    font-size: 25px;
+}
